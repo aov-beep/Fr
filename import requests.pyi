@@ -2,7 +2,7 @@ import requests
 
 
 def location(ip: str):
-    response = requests.get(f"http://ip-api.com/json/{ip}?lang=ru").json()
+    response = requests.get(f"http://ip-api.com/json/{ip}?lang=ua").json()
     print("країна:", response['country'])
     print("код страни:", response['countryCode' ])
     print ("регіон", response ['region'])
