@@ -10,11 +10,11 @@ def location(ip: str):
     print("город", response['city'])
     print("індекс", response['zip'])
     print("кординати(ширина):",  response['lat'])
-    print ("Координаты (высота):",  response['lon'])
+    print ("Координати (высота):",  response['lon'])
     print ("часовий пояс:", response['timezone'])
     print ("провайдер", response['isp'])
 
-answer = input("BBepиTe IP-aдpec: ") 
+answer = input("Bибери IP-aдpec: ") 
 location(answer)
 
 
