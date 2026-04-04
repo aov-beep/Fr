@@ -69,7 +69,7 @@ def main():
     print(f"\n[+] Сканується {len(ports)} портів...\n")
     
     threads = []
-    open_ports = []  # Список для зберігання відкритих портів
+    open_ports = [] 
 
  
     for port in ports:
